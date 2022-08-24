@@ -1,6 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: #BBBBBB;
-    padding: 20px 0;;
+    padding: 20px 0;
 }
 
 .caixa{
@@ -81,10 +85,55 @@ nav a:hover{
 footer{
     text-align: center;
     background: url(imagens/bg.jpg);
-    padding: 40px 0;   
+    padding: 40px 0;
 }
 
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
+}
+
+/*CSS Página inicial*/
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /*o dobro da padrão = 16*2 = 32px*/
+    margin: 0 0 1em; /*Proporcional a 1 vez o tamanho da fonte 32px*/
+    clear: left; /*Limpar o float*/
+}
+
+.utensilios{
+    width: 120px;
+    float: left; /*Deixar flutuando*/
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.imagem-beneficios{
+    width: 60%;
 }
