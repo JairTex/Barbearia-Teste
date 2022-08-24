@@ -202,5 +202,13 @@ SELETORES
 Selecionar apenas filhos diretos
 main > p{}
 
+Selecionar o próximo irmão
+img + p {}
+
+Selecionando todos pŕoximos irmãos
+img ~ p {}
+
+Selecionando todos os parágrafos que não são "missão" = exclusão
+.principal p:not(#missao){}
 
 */
