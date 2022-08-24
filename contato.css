@@ -1,16 +1,13 @@
-main{
-    width: 940px;
-    margin: 0 auto;
-}
-
 form{
     margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form label, form legend{
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
 }
 
 .input-padrao{
@@ -43,8 +40,13 @@ form label, form legend{
     transform: scale(1.2);
 }
 
+.tabela-funcionamento{
+    width: 940px;
+    margin: 0 auto;
+}
+
 table{
-    margin: 20px 0 40px;
+    margin: 30px 0 40px;
 }
 
 thead{
