@@ -104,6 +104,7 @@ footer{
     font-size: 2em; /*o dobro da padrão = 16*2 = 32px*/
     margin: 0 0 1em; /*Proporcional a 1 vez o tamanho da fonte 32px*/
     clear: left; /*Limpar o float*/
+    /*color: rgba(128, 120, 120, 0.9);*/
 }
 /*Selecion o primeiro elemento = letra
 .titulo-principal::first-letter{
@@ -190,6 +191,12 @@ p:first-line{
 
 .imagem-beneficios{
     width: 60%;
+    opacity: 1;
+    transition: 1000ms opacity;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
 }
 
 .video{
@@ -211,4 +218,11 @@ img ~ p {}
 Selecionando todos os parágrafos que não são "missão" = exclusão
 .principal p:not(#missao){}
 
+*/
+
+/*
+CALCULOS
+Para ajustarmos uma imagem exatamentea um tamanho de tela, ás vezes é necessário usarmos
+width: cal(40% - 26px)
+onde indicamos o método cal e então damos o tamanho da tela, sua operação, e o resultado que queremos
 */
